@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking the css file for styling the webpage -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Linking the javascript query for acts of service cards -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Linking the font/icon website link for icons -->
+    <script src="https://kit.fontawesome.com/7725ce55fd.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    
+    <div class="banner">
+    <!-- Fixed navigation bar -->
+    <header class="fixed-navbar">
+        <a href="#top" class="logo">artesse<span class="dot">.</span></a>
+        <!-- Navbar menu -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pages/About.html">About Us</a></li>
+                <li><a href="#">Services ⇣</a>
+                <!-- Dropdown menu for services -->
+                <ul>
+                    <li><a href="Pages/InteriorDesign.html">Interior Designing</a></li>
+                    <li><a href="Pages/Furnishing.html">Furnishing</a></li>
+                    <li><a href="Pages/ExteriorDesign.html">Exterior Designing</a></li>
+                </ul>
+                </li>
+                <li><a href="Pages/Projects.html">Projects</a></li>
+                <li><a href="Pages/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <!-- Banner content -->
+        <p>Allow us to leave <br></p>
+        <h2>Beautiful Traces</h2>
+        <p class="award-para">An award winning designing firm at your service.</p>
+        <div class="banner-btn">
+            <a href="/Pages/Contact.html"><span></span>Enquire Now</a>
+        </div>
+    </div>
+    </div>
+ 
+    <!-- About us section -->
+    <div class="about-section">
+        <p class="about-firm">━ ABOUT THE FIRM ━</p>
+        <div class="about-para">
+            <h2>What We Do</h2>
+            <p>Welcome to Artesse, your trusted partner in creating remarkable interior and exterior spaces. We are dedicated to transforming your visions into reality through innovative design solutions. Our team of experts specializes in interior designing, exterior designing, and furnishing, ensuring a comprehensive approach to your project.</p>
+            
+            <p><br>At Artesse, we have a passion for creating captivating interiors and exteriors that elevate your living and working environments. With our extensive experience and expertise in interior designing, exterior designing, and furnishing, we strive to deliver exceptional solutions that enhance both aesthetics and functionality.</p>
+            <div class="about-btn">
+                <br>
+                <a href="Pages/Projects.html"><span></span>Our Projects</a>
+            </div>
+        </div>
+        <!-- Our Acts of Service section -->
+        <div class="options">
+            <div class="option active" style="--optionBackground:url(/AboutImages/Planning.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Planning and Layout</div>
+                        <div class="sub">Transforming Visions into Thoughtfully Designed Realities</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground:url(/AboutImages/BestMaterials.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">The Best Materials</div>
+                        <div class="sub">Quality Materials for Lasting Beauty and Durability</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground:url(/AboutImages/AttentionToDetail.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Attention to Detail</div>
+                        <div class="sub">Obsessed with Perfection, Every Detail Matters</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground:url(/AboutImages/TrendAwareness.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Trend Awareness</div>
+                        <div class="sub">Infusing Modern Flair with Timeless Elegance</div>
+                    </div>
+                </div>
+            </div>
+            <div class="option" style="--optionBackground:url(/AboutImages/BuildyourDream.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Building Your Dream</div>
+                        <div class="sub">Crafting Personalized Spaces that Bring Joy to Clients</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- End of About section -->
+        
+    <!-- Start of services section -->
+    <div class="services-section">
+        <div class="service-banner">
+            <p class="about-firm">━ SERVICES WE PROVIDE ━</p>
+            <h2>What We Offer</h2>
+            <p class="services-para">Transform your living spaces with our comprehensive range of design services. Our interior design expertise brings together functionality and style, creating personalized spaces that reflect your unique vision. Elevate your comfort and elegance with our carefully curated furnishing options, from exquisite furniture pieces to captivating decor accents. Enhance your outdoor areas with our exceptional exterior design solutions, blending seamlessly with nature and creating stunning retreats. With our firm's expertise, your space will be transformed into a harmonious and captivating environment that embodies your style and enhances your everyday living.</p>
+            <div class="container">
+                <!-- Interior Design card -->
+                <div id="service-interior" class="section">
+                    <div class="services">
+                        <a href="Pages/InteriorDesign.html">Interior Design</a>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <!-- Furnishing card -->
+                <div id="service-furnishing" class="section">
+                    <div class="services">
+                        <a href="Pages/Furnishing.html">Furnishing</a>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <!-- Exterior Design card -->
+                <div id="service-exterior" class="section">
+                    <div class="services">
+                        <a href="Pages/ExteriorDesign.html">Exterior Design</a>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Services section -->
+        
+
+
+
+    <!-- Start of Projects section -->
+    <div class="projects-section">
+        <div class="projects-banner">
+            <p class="projects-firm">━ OUR PROJECTS ━</p>
+            <h2>What We Did</h2>
+            <div class="carousel">
+
+                <!-- Project 1 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Modern Loft</div>
+                        <div class="num">01</div>
+                        <img src="/ProjectsImages/ImageOne.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Urban Haven</div>
+                        <div class="num">02</div>
+                        <img src="/ProjectsImages/ImageTwo.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 3 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Elegant Space</div>
+                        <div class="num">03</div>
+                        <img src="/ProjectsImages/ImageThree.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 4 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Tranquility Set</div>
+                        <div class="num">04</div>
+                        <img src="/ProjectsImages/ImageFour.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 5 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">View of Life</div>
+                        <div class="num">05</div>
+                        <img src="/ProjectsImages/ImageFive.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 6 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Harmonic Haven</div>
+                        <div class="num">06</div>
+                        <img src="/ProjectsImages/ImageSix.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 7 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">The Retreat</div>
+                        <div class="num">07</div>
+                        <img src="/ProjectsImages/ImageSeven.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 8 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Enchanted Villa</div>
+                        <div class="num">08</div>
+                        <img src="/ProjectsImages/ImageEight.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 9 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Stellar Solace</div>
+                        <div class="num">09</div>
+                        <img src="/ProjectsImages/ImageNine.jpg" />
+                    </div>
+                </div>
+    
+                <!-- Project 10 -->
+                <div class="carousel-item">
+                    <div class="carousel-box">
+                        <div class="title">Ethereal Elegance</div>
+                        <div class="num">10</div>
+                        <img src="/ProjectsImages/ImageTen.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of projects section -->
+        
+
+    <!-- Start of Stats section -->
+    <div class="statistics">
+    <div class="row">
+        
+        <!-- Years of Experience stat -->
+        <div class="col-md-3 col-sm-6 bottom-margin counter-section wow fadeInUp sm-margin-bottom-ten animated" data-wow-duration="300ms" style="visibility: visible; animation-duration: 300ms; animation-name: fadeInUp;">
+            <i class="fa-sharp fa-solid fa-ranking-star fa-2xl"></i>
+            <span id="anim-number-pizza" class="counter-number"></span>
+            <span class="timer counter alt-font appear" data-to="500" data-speed="700">25</span>
+            <h6 class="counter-title">Years of Experience</h6>
+        </div>
+      
+        <!-- Satisfied Clients stat -->
+        <div class="col-md-3 col-sm-6 bottom-margin counter-section wow fadeInUp sm-margin-bottom-ten animated" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInUp;">
+            <i class="fa-solid fa-thumbs-up fa-2xl"></i>
+            <span class="timer counter alt-font appear" data-to="980" data-speed="7000">1655</span>
+            <h6 class="counter-title">Satisfied Clients</h6>
+        </div>
+  
+        <!-- Successful Projects stat -->
+        <div class="col-md-3 col-sm-6 bottom-margin-small counter-section wow fadeInUp xs-margin-bottom-ten animated" data-wow-duration="900ms" style="visibility: visible; animation-duration: 900ms; animation-name: fadeInUp;">
+            <i class="fa-sharp fa-solid fa-list-check fa-2xl"></i>
+            <span class="timer counter alt-font appear" data-to="810" data-speed="7000">2210</span>
+            <h6 class="counter-title">Successful Projects</h6>
+        </div>
+
+        <!-- Awards Honored stat -->
+        <div class="col-md-3 col-sm-6 counter-section wow fadeInUp animated" data-wow-duration="1200ms" style="visibility: visible; animation-duration: 1200ms; animation-name: fadeInUp;">
+            <i class="fa-sharp fa-solid fa-award fa-2xl"></i>
+            <span class="timer counter alt-font appear" data-to="600" data-speed="7000">455</span>
+            <h6 class="counter-title">Awards Honored</h6>
+        </div>
+       
+        </div>
+    </div>
+    <!-- End of Sats section -->
+    
+    <!-- Start of Testimonials Section -->
+    <div class="testimonials">
+        <p class="projects-firm">━ OUR TESTIMONIALS ━</p>
+        <div class="testimonials-para">
+            <h2>What They Say</h2>
+            <p>Our client's words speak volumes. They praise our remarkable talent, innovative designs, and attention to detail. From breathtaking spaces to transformative impact, they consistently rave about our outstanding results. Their recommendations inspire us to exceed expectations.</p>
+        </div>
+        <div class="container">
+            <section id="testim" class="testim">
+                <div class="testim-cover">
+                    <div class="wrap">
+                        <!-- Testimonials navigation arrows -->
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+                        <ul id="testim-dots" class="dots">
+                            <!-- Testimonials navigation dots -->
+                            <li class="dot active"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li><!--
+                            --><li class="dot"></li>
+                        </ul>
+                        <div id="testim-content" class="cont">
+                            <div class="active">
+                                <!-- Testimonial 1 -->
+                                <div class="img"><img src="/TestimonialImages/Male1.jpg"></div>
+                                <h2>Michael S.</h2>
+                                <p>The team at this design firm is simply phenomenal. Their ability to transform spaces into something truly incredible is unparalleled. I am constantly amazed by their talent and dedication to delivering outstanding results.</p>
+                            </div>
+                            <div>
+                                <!-- Testimonial 2 -->
+                                <div class="img"><img src="/TestimonialImages/Woman1.jpg" alt=""></div>
+                                <h2>Sarah P.</h2>
+                                <p>Working with this design firm was an extraordinary experience. Their innovative ideas and remarkable execution exceeded my expectations. I highly recommend them to anyone looking for exceptional design solutions.</p>
+                            </div>
+                            <div>
+                                <!-- Testimonial 3 -->
+                                <div class="img"><img src="/TestimonialImages/Male2.jpg" alt=""></div>
+                                <h2>John D.</h2>
+                                <p>I was absolutely stunned by the breathtaking designs created by this team. Their attention to detail and creative vision are truly remarkable. I couldn't be happier with the outcome!</p>
+                            </div>
+                            <div>
+                                <!-- Testimonial 4 -->
+                                <div class="img"><img src="/TestimonialImages/Woman2.jpg" alt=""></div>
+                                <h2>Emily M.</h2>
+                                <p>I had the pleasure of collaborating with this design firm on a recent project, and I must say, their work is mind-blowing. Their unique approach and impeccable taste turned my vision into a stunning reality. I'm in awe of their creativity!</p>
+                            </div>
+                            <div>
+                                <!-- Testimonial 5 -->
+                                <div class="img"><img src="/TestimonialImages/Male3.jpg" alt=""></div>
+                                <h2>David L.</h2>
+                                <p>I am so thrilled with the outstanding work done by this design firm. Their exceptional attention to detail and commitment to excellence is evident in every aspect of their designs. They truly exceeded my expectations and created a space that is both functional and visually stunning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- End of Testimonials section -->
+
+    <!-- Start of First footer section -->
+    <div class="upper-footer">
+        <!-- Container for the upper footer section -->
+        <div class="container-first-footer">
+            <div class="upper-footer-row">
+                <div class="upper-footer-inner wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                    <!-- Title for the upper footer section -->
+                    <div class="upper-footer-title">
+                        <h2>Quality work that exceeds expectations</h2>
+                    </div>
+                    <!-- Button for enquiring -->
+                    <div class="upper-btn">
+                        <a href="Pages/Contact.html"><span></span>Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of First footer section -->
+    
+    
+    <!-- Start of Main Footer section -->
+    <footer class="web-footer">
+        <div class="web-footer-top">
+            <div class="container-main-footer">
+                <div class="web-footer-top-inner">
+                    <div class="footer-container">
+                        <!-- Company Logo -->
+                        <div class="wow fadeInUp" data-wow-delay="100ms">
+                            <div class="footer-column-container-logo">
+                                <div class="footer-logo">
+                                    <a href="#top" class="logo">artesse<span class="dot">.</span></a>
+                                </div>
+                                <p class="footer-about-text">Proficient, Impeccable Quality & Client Satisfaction</p>
+                                <ul class="wrapper">
+                                    <!-- Social Media Icons -->
+                                    <li class="icon facebook">
+                                        <span><i class="fab fa-facebook-f"></i></span>
+                                    </li>
+                                    <li class="icon twitter">
+                                        <span><i class="fab fa-twitter"></i></span>
+                                    </li>
+                                    <li class="icon instagram">
+                                        <span><i class="fab fa-instagram"></i></span>
+                                    </li>
+                                    <li class="icon youtube">
+                                        <span><i class="fab fa-youtube"></i></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Links -->
+                        <div class="wow fadeInUp" data-wow-delay="200ms">
+                            <div class="footer-column-container">
+                                <h3 class="footer-title">Links</h3>
+                                <ul class="footer-links-list">
+                                    <li><a href="/index.html">Home</a></li>
+                                    <li><a href="Pages/About.html"><nobr>About Us</nobr></a></li>
+                                    <li><a href="Pages/InteriorDesign.html"><nobr>Interior Design</nobr></a></li>
+                                    <li><a href="Pages/Furnishing.html"><nobr>Furnishing</nobr></a></li>
+                                    <li><a href="Pages/ExteriorDesign.html"><nobr>Exterior Design</nobr></a></li>
+                                    <li><a href="Pages/Projects.html">Projects</a></li>
+                                    <li><a href="Pages/Contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Contact Information -->
+                        <div class="wow fadeInUp" data-wow-delay="300ms">
+                            <div class="footer-column-container-contact">
+                                <h3 class="footer-title">Contact</h3>
+                                <ul class="list-unstyled footer-contact-list">
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-phone"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p><a href="tel:971 55 123 4567">971 55 123 4567</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-envelope"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p><a href="mailto:info@artesse.com">info@artesse.com</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <span class="fa fa-location-dot"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>123 Main Street, Dubai, United Arab Emirates</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Newsletter Subscription -->
+                        <div class="wow fadeInUp" data-wow-delay="400ms">
+                            <div class="footer-column-container-news">
+                                <h3 class="footer-title">Newsletter</h3>
+                                <p class="footer-newsletter-text">
+                                    Get the latest updates, announcements, and news delivered directly to your inbox by signing up for email notifications</p>
+                                <form class="footer-newsletter-form mc-form" data-url="#">
+                                    <div class="footer-newsletter-input-box">
+                                        <input type="email" placeholder="Enter Email Address" name="EMAIL">
+                                        <button type="submit" class="footer-newsletter-btn">
+                                        <i class="fa-solid fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
+                                <div class="mc-form-response"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Main Footer section -->
+
+        <!-- Start of bottom Footer section -->
+        <div class="web-footer-bottom">
+            <div class="container-c-footer">
+                <div class="row-footer">
+                    <div class="footer-bottom">
+                        <div class="web-footer-bottom-inner">
+                            <!-- Footer Text -->
+                            <p class="web-footer-bottom-text">© All Rights Reserved 2023 by Artesse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of bottom Footer section -->
+    </footer>
+    <!-- End of Footer section -->
+    
+    <!-- Linking all the Javascript files-->
+    <script src="Javascript/navbar.js"></script>
+    <script src="Javascript/aboutus.js"></script>
+    <script src="Javascript/carousel.js"></script>
+    <script src="Javascript/statistics.js"></script>
+    <script src="Javascript/testimonials.js"></script>
+
+</body>
+</html>
